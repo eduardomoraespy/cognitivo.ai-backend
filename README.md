@@ -12,6 +12,7 @@ Tecnologias Usadas:
   - Bibliotecas mais relevantes: Pandas, tweepy, datetime
   - Banco de Dados Local: SQLite 3
   - Visualização de API Swagger e redoc
+  - Deploy: Heroku
 
 ## Descrevendo mais a solução
 A resolução do projeto consistiu em atender o problema de negócio que a empresa tem. A necessidade de automação e criação de relatórios em csv, json e guardar as informações no banco de dados. Com isso a solução criada para atende o problema de negócio foi feito da seguinte forma:
