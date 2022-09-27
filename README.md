@@ -1,6 +1,8 @@
 # cognitivo.ai-backend
 
 Acesso Servidor web: https://cognitivo-ai.herokuapp.com/swagger/
+
+
 https://cognitivo-ai.herokuapp.com/redoc/
 
 
