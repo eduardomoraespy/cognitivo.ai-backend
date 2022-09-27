@@ -1,5 +1,9 @@
 # cognitivo.ai-backend
 
+Acesso Servidor web: https://cognitivo-ai.herokuapp.com/swagger/
+https://cognitivo-ai.herokuapp.com/redoc/
+
+
 Tecnologias Usadas:
   - Linguagem: Python
   - FrameWork: Django e Django RestFramework
