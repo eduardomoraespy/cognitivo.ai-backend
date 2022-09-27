@@ -26,7 +26,13 @@ A resolução do projeto consistiu em atender o problema de negócio que a empre
 
   - Resposta no navegador das informações buscadas no twitter, com o dia e hora do registro criado, caso exista a necessidade de rápida visualização. 
 
+
 - Geração em cada requisição de relatórios csv, json e dados salvo no banco de dados, com as informações de scraping do Twitter
+
+
+- Por limitação de requisições e nível de acesso da API do Twitter os relatório não pode ter mais de 100 requisições, por isso que a solução proposta foi que a cada requisição feita nesta aplicação será feita 100 novas requisições no Twitter.
+
+
 
 Execução do Projeto:
 1º clone projeto: git clone https://github.com/eduardomoraespy/cognitivo.ai-backend.git
