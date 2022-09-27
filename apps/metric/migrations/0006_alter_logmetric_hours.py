@@ -7,13 +7,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('metric', '0004_logmetric'),
+        ('metric', '0005_alter_logmetric_hours'),
     ]
 
     operations = [
         migrations.AlterField(
             model_name='logmetric',
             name='hours',
-            field=models.CharField(default=datetime.datetime(2022, 9, 27, 0, 49, 22, 434292), max_length=194, verbose_name='hours'),
+            field=models.CharField(default=datetime.datetime(2022, 9, 27, 0, 49, 38, 4752), max_length=194, verbose_name='hours'),
         ),
     ]

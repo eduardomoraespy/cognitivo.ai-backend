@@ -1,5 +1,5 @@
 from django.db import models
-
+import datetime
 
 class Metric(models.Model):
     track_name = models.CharField(
@@ -29,11 +29,12 @@ class LogMetric(models.Model):
         db_column='metric_id',
         on_delete=models.PROTECT
     )
-    hours = models.DateTimeField(
+    hours = models.CharField(
         verbose_name='hours',
-        auto_now_add=True,
-        blank=True,
-        null=True
+        max_length=194,
+        null=False,
+        blank=False,
+        default=datetime.datetime.now()
     )
 
     class Meta:
